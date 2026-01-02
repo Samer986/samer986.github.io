@@ -1,4 +1,4 @@
-import avatar from '../assets/images/samer.jpeg';
+import avatar from '../assets/images/Samer.jpeg';
 import post2 from '../assets/images/post-2.jpg';
 import type { SiteConfig } from '../types';
 
