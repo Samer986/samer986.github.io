@@ -1,4 +1,4 @@
-import avatar from '../assets/images/samer.png';
+import avatar from '../assets/images/samer.jpeg';
 import post2 from '../assets/images/post-2.jpg';
 import type { SiteConfig } from '../types';
 
@@ -6,73 +6,87 @@ const siteConfig: SiteConfig = {
     website: 'https://example.com',
     avatar: {
         src: avatar,
-        alt: 'Ethan Donovan'
+        alt: 'Samer Yousef'
     },
     title: 'Samer Yousef',
-    subtitle: 'Bienvenidos a mi blog personal 👨‍💻',
-    description: 'Astro.js and Tailwind CSS theme for blog and portfolio by justgoodui.com',
+    subtitle: 'Desarrollador Full Stack 👨‍💻',
+    description: 'Desarrollador Full Stack especializado en FrontEnd, BackEnd, Bases de datos y Appian',
     image: {
-        src: 'file:///Users/sameryousef/Desktop/WhatsApp%20Image%202025-12-01%20at%204.25.02%20PM.jpeg',
-        alt: 'Dante - Astro.js and Tailwind CSS theme'
+        src: post2,
+        alt: 'Samer Yousef - Portafolio'
     },
     headerNavLinks: [
         {
-            text: 'Home',
+            text: 'Inicio',
             href: '/'
         },
         {
-            text: 'Projects',
-            href: '/projects'
+            text: 'Experiencia',
+            href: '/about'
         },
         {
-            text: 'Certificado',
-            href: 'https://certificate.4geeks.com/e327309f06c6a2693d027856f1412f8c530e8f1c'
+            text: 'Certificados',
+            href: '/certificates'
         },
         {
             text: 'Github',
             href: 'https://github.com/Samer986'
+        },
+        {
+            text: 'Contacto',
+            href: '/contact'
         }
     ],
     footerNavLinks: [
         {
-            text: 'About',
+            text: 'Experiencia',
             href: '/about'
         },
         {
-            text: 'Contact',
-            href: '/contact'
+            text: 'Full Stack Certificate',
+            href: 'https://certificate.4geeks.com/e327309f06c6a2693d027856f1412f8c530e8f1c'
         },
         {
-            text: 'Terms',
-            href: '/terms'
+            text: 'English Certificate (C1)',
+            href: 'https://cert.efset.org/en/sZB9be'
+        },
+        {
+            text: 'Contacto',
+            href: '/contact'
         }
-    
     ],
     socialLinks: [
-   
         {
             text: 'Instagram',
             href: 'https://www.instagram.com/samer.youseff/?next=%2F'
+        },
+        {
+            text: 'GitHub',
+            href: 'https://github.com/Samer986'
         }
     ],
     hero: {
-        title: 'Hola a todos y bienvenidos a mi portafolio',
-        text: "Hola, mi nombre es Samer, soy un desarrollador web especializado en FrontEnd, BackEnd, Bases de datos y Appian. Soy músico, lo cual se ha trasladado a mi manera de trabajar buscando siempre vias creativas para llegar a resultados funcionales y estéticos si lo amerita. Me encanta trabajar en equipo, disfruto intercambiar ideas y ayudar a materializarlas",
+        title: 'Hola, soy Samer Yousef',
+        text: "Desarrollador Full Stack certificado con inglés nivel C1. Especializado en FrontEnd, BackEnd, Bases de datos y Appian. Mi experiencia en música me ha dado una perspectiva única para abordar problemas técnicos de manera creativa y estructurada.",
         image: {
             src: post2,
-            alt: 'A person sitting at a desk in front of a computer'
+            alt: 'Samer Yousef'
         },
         actions: [
             {
-                text: 'Contacto',
-                href: '/contact'
+                text: 'Ver Experiencia',
+                href: '/about'
+            },
+            {
+                text: 'Certificados',
+                href: '/certificates'
             }
         ]
     },
     subscribe: {
-        enabled: true,
-        title: 'Subscribe to Dante Newsletter',
-        text: 'One update per week. All the latest posts directly in your inbox.',
+        enabled: false,
+        title: '',
+        text: '',
         form: {
             action: '#'
         }
