@@ -8,11 +8,11 @@ const siteConfig: SiteConfig = {
         src: avatar,
         alt: 'Ethan Donovan'
     },
-    title: 'Dante',
-    subtitle: 'Minimal Astro.js theme',
+    title: 'Samer Yousef',
+    subtitle: 'Bienvenidos a mi blog personal 👨‍💻',
     description: 'Astro.js and Tailwind CSS theme for blog and portfolio by justgoodui.com',
     image: {
-        src: '/dante-preview.jpg',
+        src: 'blob:https://web.whatsapp.com/ca7e80bd-c02f-4265-8b6d-6a5d91e7911e',
         alt: 'Dante - Astro.js and Tailwind CSS theme'
     },
     headerNavLinks: [
@@ -29,8 +29,8 @@ const siteConfig: SiteConfig = {
             href: '/blog'
         },
         {
-            text: 'Tags',
-            href: '/tags'
+            text: 'Github',
+            href: 'https://github.com/Samer986'
         }
     ],
     footerNavLinks: [
@@ -45,29 +45,19 @@ const siteConfig: SiteConfig = {
         {
             text: 'Terms',
             href: '/terms'
-        },
-        {
-            text: 'Download theme',
-            href: 'https://github.com/JustGoodUI/dante-astro-theme'
         }
+    
     ],
     socialLinks: [
-        {
-            text: 'Dribbble',
-            href: 'https://dribbble.com/'
-        },
+   
         {
             text: 'Instagram',
-            href: 'https://instagram.com/'
-        },
-        {
-            text: 'X/Twitter',
-            href: 'https://twitter.com/'
+            href: 'https://www.instagram.com/samer.youseff/?next=%2F'
         }
     ],
     hero: {
-        title: 'Hi There & Welcome to My Corner of the Web!',
-        text: "I'm **Ethan Donovan**, a web developer at Amazing Studio, dedicated to the realms of collaboration and artificial intelligence.\nMy approach involves embracing intuition, conducting just enough research, and leveraging aesthetics as a catalyst for exceptional products.\nI have a profound appreciation for top-notch software, visual design, and the principles of product-led growth.\n\nFeel free to explore some of my coding endeavors on [GitHub](https://github.com/JustGoodUI/dante-astro-theme) or follow me on [Twitter/X](https://twitter.com/justgoodui).",
+        title: 'Hola a todos y bienvenidos a mi portafolio',
+        text: "Hola, mi nombre es Samer, soy un desarrollador web especializado en FrontEnd, BackEnd, Bases de datos y Appian. Soy musico, lo cual se ha trasladado a mi manera de trabajr buscando siempre vias creativas para llegar a resultados funcionales y esteticos si lo amerita. Me encanta trabajar en equipo, disfruto intercambiar ideas y ayudar a materializarlas",
         image: {
             src: hero,
             alt: 'A person sitting at a desk in front of a computer'
