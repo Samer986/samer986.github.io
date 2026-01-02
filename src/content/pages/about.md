@@ -3,9 +3,9 @@ title: About
 seo:
   title: Sobre Mí
   description: Conoce más sobre Samer Yousef - Desarrollador Full Stack
+---
 
-
-
+![Samer Yousef](../../assets/images/about.jpg)
 
 **Nota:** Esta página presenta mi experiencia profesional y habilidades como desarrollador Full Stack.
 
