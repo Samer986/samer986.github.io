@@ -3,10 +3,7 @@ title: About
 seo:
   title: Sobre Mí
   description: Conoce más sobre Samer Yousef - Desarrollador Full Stack
-  image:
-    src: '../../../assets/images/about.jpg'
-    alt: Samer Yousef
----
+
 
 
 
